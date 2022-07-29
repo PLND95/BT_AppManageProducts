@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table tr td {
+        border: blue 1px solid;
+    }
+</style>
+<body>
+    <h1>Danh sách sản phẩm </h1>
+    <input id="newP" placeholder="newProduct">
+    
+    <button onclick="createNewProducts()">Create</button>
+    <table>
+        <tr>
+            <td>Tên sản phẩm</td>
+            <td>Sửa</td>
+            <td>Xóa</td>
+        </tr>
+        <tbody id = "products">
+            <tr>
+                <td>Macbook 2020</td>
+                <td>Sửa</td>
+                <td>Xóa</td>
+            </tr>
+            <tr>
+                <td>Dell 3570</td>
+                <td>Sửa</td>
+                <td><button onclick="delProducts()">Xóa</button></td>
+            </tr>
+        </tbody>
+
+    </table>
+    
+    
+    
+    
+    
+    <script src="manageProduct.js"></script>
+</body>
+</html>
